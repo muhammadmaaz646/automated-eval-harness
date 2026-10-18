@@ -1,0 +1,46 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Private working files
+FOR-MAAZ/
+MAAZ-NOTES*
+
+# Large data and model artifacts
+data/
+models/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z

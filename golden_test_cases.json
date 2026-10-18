@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "Can I return a used item?",
+    "must_include": ["30 days", "original packaging"]
+  },
+  {
+    "id": 2,
+    "question": "Do you offer free shipping on returns?",
+    "must_include": ["free", "prepaid"]
+  },
+  {
+    "id": 3,
+    "question": "What if I lost my receipt?",
+    "must_include": ["order number"]
+  },
+  {
+    "id": 4,
+    "question": "How long does standard shipping take?",
+    "must_include": ["5-7 business days"]
+  },
+  {
+    "id": 5,
+    "question": "How much is express shipping?",
+    "must_include": ["$9.99"]
+  },
+  {
+    "id": 6,
+    "question": "When will I get my money back after a return?",
+    "must_include": ["5-10 business days"]
+  },
+  {
+    "id": 7,
+    "question": "Is there a warranty on electronics?",
+    "must_include": ["1-year", "defects"]
+  },
+  {
+    "id": 8,
+    "question": "Does the warranty cover if I drop my phone?",
+    "must_include": ["Accidental damage is not covered"]
+  },
+  {
+    "id": 9,
+    "question": "Do I get free shipping on a $60 order?",
+    "must_include": ["free shipping", "$50"]
+  },
+  {
+    "id": 10,
+    "question": "How many days do I have to return something?",
+    "must_include": ["30 days"]
+  }
+]

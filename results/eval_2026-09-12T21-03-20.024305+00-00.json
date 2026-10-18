@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-09-12T21:03:20.024305+00:00",
+  "total": 10,
+  "passed": 5,
+  "accuracy": 0.5,
+  "results": [
+    {
+      "id": 1,
+      "question": "Can I return a used item?",
+      "answer": "The provided policy does not state whether you can return a used item. It only provides information on how to process a return if you have lost your receipt.",
+      "expected_phrases": [
+        "30 days",
+        "original packaging"
+      ],
+      "missing_phrases": [
+        "30 days",
+        "original packaging"
+      ],
+      "passed": false
+    },
+    {
+      "id": 2,
+      "question": "Do you offer free shipping on returns?",
+      "answer": "The provided policy does not mention free shipping on returns.",
+      "expected_phrases": [
+        "free",
+        "prepaid"
+      ],
+      "missing_phrases": [
+        "prepaid"
+      ],
+      "passed": false
+    },
+    {
+      "id": 3,
+      "question": "What if I lost my receipt?",
+      "answer": "If you have lost your receipt, we can look up your order using your order number, the email used at checkout, or the card used for payment.",
+      "expected_phrases": [
+        "order number"
+      ],
+      "missing_phrases": [],
+      "passed": true
+    },
+    {
+      "id": 4,
+      "question": "How long does standard shipping take?",
+      "answer": "Standard shipping takes 5-7 business days.",
+      "expected_phrases": [
+        "5-7 business days"
+      ],
+      "missing_phrases": [],
+      "passed": true
+    },
+    {
+      "id": 5,
+      "question": "How much is express shipping?",
+      "answer": "Express shipping costs an extra $9.99.",
+      "expected_phrases": [
+        "$9.99"
+      ],
+      "missing_phrases": [],
+      "passed": true
+    },
+    {
+      "id": 6,
+      "question": "When will I get my money back after a return?",
+      "answer": "The provided policy does not contain information regarding when you will receive your money back.",
+      "expected_phrases": [
+        "5-10 business days"
+      ],
+      "missing_phrases": [
+        "5-10 business days"
+      ],
+      "passed": false
+    },
+    {
+      "id": 7,
+      "question": "Is there a warranty on electronics?",
+      "answer": "Yes, all electronics come with a 1-year manufacturer warranty covering defects. Accidental damage is not covered.",
+      "expected_phrases": [
+        "1-year",
+        "defects"
+      ],
+      "missing_phrases": [],
+      "passed": true
+    },
+    {
+      "id": 8,
+      "question": "Does the warranty cover if I drop my phone?",
+      "answer": "The provided policy does not contain information regarding warranty coverage for dropped phones.",
+      "expected_phrases": [
+        "Accidental damage is not covered"
+      ],
+      "missing_phrases": [
+        "Accidental damage is not covered"
+      ],
+      "passed": false
+    },
+    {
+      "id": 9,
+      "question": "Do I get free shipping on a $60 order?",
+      "answer": "Yes, you get free shipping on a $60 order because it is over $50.",
+      "expected_phrases": [
+        "free shipping",
+        "$50"
+      ],
+      "missing_phrases": [],
+      "passed": true
+    },
+    {
+      "id": 10,
+      "question": "How many days do I have to return something?",
+      "answer": "The provided policy does not state how many days you have to return an item. It only specifies that refunds are issued within 5-10 business days after the item is received.",
+      "expected_phrases": [
+        "30 days"
+      ],
+      "missing_phrases": [
+        "30 days"
+      ],
+      "passed": false
+    }
+  ]
+}
